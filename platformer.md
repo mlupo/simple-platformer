@@ -3,7 +3,7 @@
 ## Let's Make a platformer @unplugged
 In this brief tutorial, we will start with a skeleton of a game and add some new functionality!
 
-By the end we wll have a (very) simple platforming game!
+By the end we will have a (very) simple platforming game!
 
 ## _
 ### Take a Look at What's Already Here!
