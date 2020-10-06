@@ -59,7 +59,7 @@ controller.moveSprite(mySprite, 80, 0)
 
 ## _
 ### Let's Add Gravity!
-You make have noticed that the player can only slide left to right... lets make it so that our player is dragged down by gravity!  
+You may have noticed that the player can only slide left to right... lets make it so that our player is dragged down by gravity!  
 
 In the ``||sprites:sprites||`` drawer find the ``||sprites:set||`` ``||variables:mySprite||`` ``||sprites:x to 0||`` block, and drag it to the bottom of the ``||loops:on start||`` block.
 Change **x** to **ay (acceleration y)**, and change **0** to **900**.  
@@ -120,8 +120,6 @@ mySprite.ay = 900
 To make our character jump, we will temporarily change our character's Y velocity! Doing so will propel our character into the air, before they are brought back down by gravity.
   
 First, we need to drag out a fresh ``||controller:on A button pressed||`` block from the ``||controller:controller||`` drawer. This is where we will put our jumping logic.  
-
-To be continued in the next step!
 
 ```block
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
